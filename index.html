@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -21,12 +21,14 @@
           }
         }
       </script>
-       <script src="https://kit.fontawesome.com/6ba48fe14d.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/440235f38a.js" crossorigin="anonymous"></script>
+
     <style>
        .manrope{
         font-family: "Manrope", sans-serif;
        } 
     </style>
+
 </head>
 <body class="manrope">
     <header class="md:container md:mx-auto bg-gradient-to-br"> 
@@ -65,6 +67,9 @@
                     
                        <a class=" btn bg-color1 text-[14px] font-extrabold rounded-full py-2 overflow-hidden">
                       Book Consult <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 h-8 w-8   rounded-2xl px-2 py-2"></i> </a>
+                      
+                 
+                    
                   </div>
                 </div>
                   <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -87,24 +92,73 @@
           <img class="w-2/6 ml-auto mr-auto" src="./assets/banner.png" alt="">
         </div>
         <div>
-          <h1 class="font-extrabold text-3xl text-center mb-5">A barn house of this design has a<br> striking appearance</h1>
-          <p class="font-medium text-2xl md:5xl text-center text-[#494949] mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br>
+          <h1 class="font-extrabold text-2xl text-center mb-5 md:text-5xl">A barn house of this design has a<br> striking appearance</h1>
+          <p class="font-medium text-xs text-center text-[#494949] mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br>
              accents, and large windows that flood the space with natural light.</p>
          </div>
          <div class="text-center mb-14">
           <a class="btn bg-lime-200 border border-lime-600 text-xs  font-extrabold rounded-full justify-center items-center mb-1o">
             View Details <i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 h-7 w-7   rounded-2xl p-2"></i></a>
-         </div> 
-    </header>
+         </div>
+        </header>
+
+
+
     <main class="bg-gray-100">
-      <img class="ml-20" src="./assets/Vector.png" alt="">
-      <section>
-        <div>
+      <img class="ml-0 md:ml-14" src="./assets/Vector.png" alt="">
+      <section class="container mx-auto" >
+       <div>
+        <div class="flex">
           <div>
+            <div>
+              <p class="text-base font-semibold text-black bg-white rounded-full px-1 py-1 h-6 w-24 ml-24 mb-5"><i class="fa-solid text-black fa-arrow-right"></i>About us</p>
+            </div>
+            <div class="ml-24 mb-5">
+              <h1 class="font-extrabold text-4xl text-left mb-3">We design thoughtful, <br> liveable spaces</h1>
+              <p class="font-medium text-xs text-[#494949]">The barn house captivates with its blend of rustic charm and<br> 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div>
+              <div>
+                <div class="ml-24 card card-side bg-base-100 mb-6 shadow-xl w-[536px] h-[110px] px-4">
+                  <figure>
+                    <img
+                      src="./assets/commercial.png"
+                      alt="Commercial" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-[#494949] font-bold">Commercial</h2>
+                    <p class="text-[#494949] text-xs">The barn house captivates with its blend<br> of rustic charm and modern.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <div>
+                <div class="ml-24 card card-side bg-base-100 shadow-xl w-[536px] h-[110px] px-4">
+                  <figure>
+                    <img
+                      src="./assets/residential.png"
+                      alt="Commercial" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-[#494949] font-bold">Residential</h2>
+                    <p class="text-[#494949] text-xs">The barn house captivates with its blend<br> of rustic charm and modern.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
           </div>
         </div>
+        
+       </div>
       </section>
+
     </main>
 </body>
 </html>
